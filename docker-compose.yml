@@ -7,9 +7,13 @@ services:
     ports:
       - '80:3000'
     links:
-      - mongo
-  mongo:
-    container_name: mongo
-    image: mongo
+      - mysql
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_DATABASE=journals
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=
     ports:
-      - '27017:27017'
+      - 3306:3306
