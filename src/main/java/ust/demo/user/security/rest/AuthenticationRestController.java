@@ -19,7 +19,6 @@ import ust.demo.user.security.jwt.TokenProvider;
 import javax.validation.Valid;
 
 /**
- * Controller to authenticate users.
  */
 @RestController
 @RequestMapping("/api")

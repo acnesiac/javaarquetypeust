@@ -11,7 +11,7 @@ public class AdminProtectedRestController {
 
    @GetMapping("/hiddenmessage")
    public ResponseEntity<HiddenMessage> getAdminProtectedGreeting() {
-      return ResponseEntity.ok(new HiddenMessage("this is a hidden message!"));
+      return ResponseEntity.ok(new HiddenMessage("Mensaje oculto, solo se ve teniendo un rol adecuado!"));
    }
 
    private static class HiddenMessage {

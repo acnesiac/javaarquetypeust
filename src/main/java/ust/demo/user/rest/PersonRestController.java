@@ -11,7 +11,7 @@ public class PersonRestController {
 
    @GetMapping("/person")
    public ResponseEntity<Person> getPerson() {
-      return ResponseEntity.ok(new Person("John Doe", "john.doe@test.org"));
+      return ResponseEntity.ok(new Person(" Pedro Lopez", "john.doe@test.org"));
    }
 
    private static class Person {
