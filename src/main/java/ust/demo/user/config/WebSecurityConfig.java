@@ -38,14 +38,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
       this.jwtAccessDeniedHandler = jwtAccessDeniedHandler;
    }
 
-   // Configure BCrypt password encoder =====================================================================
-
    @Bean
    public PasswordEncoder passwordEncoder() {
       return new BCryptPasswordEncoder();
    }
 
-   // Configure paths and requests that should be ignored by Spring Security ================================
+   // Paths y requests que deben ser ignorados por Spring Security
 
    @Override
    public void configure(WebSecurity web) {
@@ -63,8 +61,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             "/h2-console/**"
          );
    }
-
-   // Configure security settings ===========================================================================
 
    @Override
    protected void configure(HttpSecurity httpSecurity) throws Exception {

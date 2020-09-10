@@ -4,11 +4,9 @@
    <meta charset="UTF-8">
    <title>JWT UST Demo</title>
 
-   <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-   <!-- Optional theme -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
@@ -28,7 +26,7 @@
 <div class="container">
    <h1>JWT UST Demo</h1>
 
-   <div class="alert alert-danger" id="notLoggedIn">Not logged in!</div>
+   <div class="alert alert-danger" id="notLoggedIn">No esta loggeado</div>
 
    <div class="alert alert-info text-hidden" id="loggedIn"></div>
 
@@ -49,7 +47,7 @@
                             placeholder="password" required name="password">
                   </div>
                   <div class="well">
-                     Try one of the following logins
+                     Usa el password
                      <ul>
                         <li>admin & admin</li>
                         <li>user & password</li>
@@ -64,7 +62,7 @@
          <div id="userInfo">
             <div class="panel panel-default">
                <div class="panel-heading">
-                  <h3 class="panel-title">Authenticated user</h3>
+                  <h3 class="panel-title">Usuario autentificado</h3>
                </div>
                <div class="panel-body">
                   <div id="userInfoBody"></div>
@@ -76,12 +74,12 @@
 
       <div class="col-md-6">
          <div class="btn-group" role="group" aria-label="..." style="margin-bottom: 16px;">
-            <button type="button" class="btn btn-default" id="exampleServiceBtn">call example service</button>
-            <button type="button" class="btn btn-default" id="adminServiceBtn">call admin protected service</button>
+            <button type="button" class="btn btn-default" id="exampleServiceBtn">invokar servicio</button>
+            <button type="button" class="btn btn-default" id="adminServiceBtn">invocar servicio protegido</button>
          </div>
          <div class="panel panel-default">
             <div class="panel-heading">
-               <h3 class="panel-title">Response:</h3>
+               <h3 class="panel-title">Respuesta:</h3>
             </div>
             <div class="panel-body">
                <pre id="response"></pre>
@@ -97,11 +95,11 @@
          <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Login unsuccessful</h4>
+            <h4 class="modal-title">Login no exitoso</h4>
          </div>
          <div class="modal-body"></div>
          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
          </div>
       </div><!-- /.modal-content -->
    </div><!-- /.modal-dialog -->
