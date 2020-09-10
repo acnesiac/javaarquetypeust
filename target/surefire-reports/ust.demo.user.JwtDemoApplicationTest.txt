@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ust.demo.user.JwtDemoApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.475 s - in ust.demo.user.JwtDemoApplicationTest
