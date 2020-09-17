@@ -4,6 +4,4 @@ ust\demo\user\util\AbstractRestControllerTest.class
 ust\demo\user\JwtDemoApplicationTest.class
 ust\demo\user\security\rest\UserRestControllerTest.class
 ust\demo\user\util\LogInUtils.class
-ust\demo\user\rest\PersonRestControllerTest.class
-ust\demo\user\rest\AdminProtectedRestControllerTest.class
 ust\demo\user\security\rest\AuthenticationRestControllerTest.class

@@ -16,4 +16,6 @@ Disabled - disabled:password (this user is deactivated)
 /api/hiddenmessage - endpoint restringido por la authority 'ROLE_ADMIN' (valido JWT token debe estar presente en el header)
 ```
 
-## Interesting projects
+#FrontEnd
+
+ng build --outputPath ../resources/static
