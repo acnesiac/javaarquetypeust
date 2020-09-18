@@ -1,7 +1,7 @@
-ust\demo\user\security\SecurityUtilsTest.class
-ust\demo\user\util\LogInUtils$AuthenticationResponse.class
-ust\demo\user\util\AbstractRestControllerTest.class
-ust\demo\user\JwtDemoApplicationTest.class
-ust\demo\user\security\rest\UserRestControllerTest.class
-ust\demo\user\util\LogInUtils.class
-ust\demo\user\security\rest\AuthenticationRestControllerTest.class
+com\coppel\usuario\util\LogInUtils.class
+com\coppel\usuario\security\rest\UserRestControllerTest.class
+com\coppel\usuario\util\AbstractRestControllerTest.class
+com\coppel\usuario\JwtDemoApplicationTest.class
+com\coppel\usuario\security\rest\AuthenticationRestControllerTest.class
+com\coppel\usuario\security\SecurityUtilsTest.class
+com\coppel\usuario\util\LogInUtils$AuthenticationResponse.class

@@ -1,6 +1,6 @@
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\JwtDemoApplicationTest.java
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\util\LogInUtils.java
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\security\rest\UserRestControllerTest.java
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\security\rest\AuthenticationRestControllerTest.java
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\util\AbstractRestControllerTest.java
-C:\dev\javaarquetypeust\src\test\java\ust\demo\user\security\SecurityUtilsTest.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\security\rest\AuthenticationRestControllerTest.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\security\SecurityUtilsTest.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\util\AbstractRestControllerTest.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\security\rest\UserRestControllerTest.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\util\LogInUtils.java
+C:\dev\javaarquetypeust\src\test\java\com\coppel\usuario\JwtDemoApplicationTest.java
