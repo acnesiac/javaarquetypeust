@@ -1,19 +1,12 @@
 version: '3'
 services:
-  app:
-    container_name: docker-node-mongo
+  sql-server-db:
+    container_name: sql-serer-db
+    image: microsoft/mssql-server-windows-developer
     restart: always
-    build: .
     ports:
-      - '80:3000'
-    links:
-      - mysql
-  mysql:
-    image: mysql:8.0
+      - '1433:1433'
     environment:
-      - MYSQL_ROOT_PASSWORD=
-      - MYSQL_DATABASE=journals
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=
-    ports:
-      - 3306:3306
+      SA_PASSWORD: "Pa$$word"
+      ACCEPT_EULA: "Y"
+
