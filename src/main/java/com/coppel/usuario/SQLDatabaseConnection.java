@@ -10,7 +10,7 @@ public class SQLDatabaseConnection {
     public static void main(String[] args) {
         String connectionUrl =
                 "jdbc:sqlserver://localhost:1433;"
-                        + "database=master;"
+                        + "database=hojadevida;"
                         + "user=sa;"
                         + "password=Pa$$word;"
                         + "encrypt=false;"
@@ -19,10 +19,9 @@ public class SQLDatabaseConnection {
 
         try  {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-
             Connection connection = DriverManager.getConnection(connectionUrl);
-
             // Code here.
+
             connection.close();
         }
         // Handle any errors that may have occurred.

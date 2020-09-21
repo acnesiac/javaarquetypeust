@@ -11,7 +11,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name = "USER")
+@Table(name = "USUARIO")
 public class User {
 
     @JsonIgnore
@@ -54,7 +54,7 @@ public class User {
 
     @ManyToMany
     @JoinTable(
-            name = "USER_AUTHORITY",
+            name = "USUARIO_AUTORIDAD",
             joinColumns = {@JoinColumn(name = "USER_ID", referencedColumnName = "ID")},
             inverseJoinColumns = {@JoinColumn(name = "AUTHORITY_NAME", referencedColumnName = "NAME")})
     @BatchSize(size = 20)
