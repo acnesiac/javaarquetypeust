@@ -1,9 +1,8 @@
 version: '3'
 services:
   sql-server-db:
-    container_name: sql-serer-db
+    container_name: sql-server-db
     image: microsoft/mssql-server-windows-developer
-    restart: always
     ports:
       - '1433:1433'
     environment:

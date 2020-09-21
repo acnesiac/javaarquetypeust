@@ -2,6 +2,7 @@ C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\repository\Use
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\config\CorsConfig.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\UserModelDetailsService.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\JwtAuthenticationEntryPoint.java
+C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\SQLDatabaseConnection.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\model\User.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\service\UserService.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\HojaDeVidaApplication.java
