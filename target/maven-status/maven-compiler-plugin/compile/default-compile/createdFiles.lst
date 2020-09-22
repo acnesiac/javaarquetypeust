@@ -12,6 +12,7 @@ com\coppel\usuario\HojaDeVidaApplication.class
 com\coppel\usuario\config\WebSecurityConfig.class
 com\coppel\usuario\rest\AdminProtectedRestController$1.class
 com\coppel\usuario\security\model\Authority.class
+com\coppel\usuario\config\SwaggerConfig.class
 com\coppel\usuario\security\jwt\TokenProvider.class
 com\coppel\usuario\security\jwt\JWTFilter.class
 com\coppel\usuario\security\rest\AuthenticationRestController.class

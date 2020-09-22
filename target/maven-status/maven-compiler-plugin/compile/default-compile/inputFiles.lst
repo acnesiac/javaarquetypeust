@@ -1,6 +1,7 @@
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\repository\UserRepository.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\config\CorsConfig.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\UserModelDetailsService.java
+C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\config\SwaggerConfig.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\JwtAuthenticationEntryPoint.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\SQLDatabaseConnection.java
 C:\dev\javaarquetypeust\src\main\java\com\coppel\usuario\security\model\User.java
