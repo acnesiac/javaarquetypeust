@@ -1,8 +1,13 @@
 
 ## Usage
-`mvn spring-boot:run`
+
+Para levantar mssqlserver es necesario correr la imagen de mssql sobre docker `docker-compose up`
+Para lanzar la applicacion ejecutar `mvn spring-boot:run`
+
 La aplicacion corre en  [http://localhost:8080](http://localhost:8080).
-Consola de H2 [http://localhost:8080/h2-console](http://localhost:8080/h2-console):
+
+Para visualizar la API en swagger http://localhost:8080/swagger-ui.html
+
 ```
 Admin - admin:admin
 User - user:password
