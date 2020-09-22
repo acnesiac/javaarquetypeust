@@ -1,12 +1,13 @@
 
-## Usage
+## Run
+`docker-compose up`
+`mvn spring-boot:run`
 
-Para levantar mssqlserver es necesario correr la imagen de mssql sobre docker `docker-compose up`
-Para lanzar la applicacion ejecutar `mvn spring-boot:run`
+##Applicacion 
+[http://localhost:8080](http://localhost:8080).
 
-La aplicacion corre en  [http://localhost:8080](http://localhost:8080).
-
-Para visualizar la API en swagger http://localhost:8080/swagger-ui.html
+##Swagger 
+http://localhost:8080/swagger-ui.html
 
 ```
 Admin - admin:admin
@@ -22,5 +23,4 @@ Disabled - disabled:password (this user is deactivated)
 ```
 
 #FrontEnd
-
 ng build --outputPath ../resources/static
