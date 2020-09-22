@@ -25,3 +25,9 @@ Disabled - disabled:password (this user is deactivated)
 
 #FrontEnd
 ng build --outputPath ../resources/static
+
+#Troubleshooting
+
+
+docker exec -it sql-server-db sqlcmd
+ALTER LOGIN sa WITH PASSWORD='Pa$$word',CHECK_POLICY=OFF
