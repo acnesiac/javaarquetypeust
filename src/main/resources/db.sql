@@ -1,4 +1,3 @@
-use hojadevida;
 
 CREATE DATABASE hojadevida;
 

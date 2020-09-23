@@ -8,7 +8,8 @@
 [http://localhost:8080](http://localhost:8080).
 
 ##Swagger 
-http://localhost:8080/swagger-ui.html
+
+`http://localhost:8080/swagger-ui.html`
 
 ```
 Admin - admin:admin
@@ -24,10 +25,10 @@ Disabled - disabled:password (this user is deactivated)
 ```
 
 #FrontEnd
-ng build --outputPath ../resources/static
+`ng build --outputPath ../resources/static`
 
 #Troubleshooting
 
-
-docker exec -it sql-server-db sqlcmd
+`docker exec -it sql-server-db sqlcmd
 ALTER LOGIN sa WITH PASSWORD='Pa$$word',CHECK_POLICY=OFF
+go`

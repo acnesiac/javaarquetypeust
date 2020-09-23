@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.coppel.usuario.security.rest.UserRestControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.121 s <<< FAILURE! - in com.coppel.usuario.security.rest.UserRestControllerTest
+getActualUserForUserWithToken(com.coppel.usuario.security.rest.UserRestControllerTest)  Time elapsed: 0.11 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.coppel.usuario.security.rest.UserRestControllerTest.getActualUserForUserWithToken(UserRestControllerTest.java:23)
+
